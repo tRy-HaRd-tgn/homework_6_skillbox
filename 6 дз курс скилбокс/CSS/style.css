@@ -1,0 +1,484 @@
+@font-face 
+{
+    font-display: swap; 
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/fonts/MullerBold.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+  /* MullerRegular */
+@font-face 
+{
+    font-display: swap; 
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/MullerRegular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+  /* MullerMedium */
+@font-face 
+{
+    font-display: swap; 
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/MullerMedium.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*
+{
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+}
+html
+{
+    font-family: 'Muller', sans-serif; /* указание шрифта */
+    background: #F1F1F1;
+}
+ul
+{
+    list-style: none;   /*убираем кружки в листе*/
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    margin-top: 30px;
+    max-width: 1207px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.img
+{
+    max-width: 100%;
+}
+.header-container
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    
+}
+.header-container-down
+{
+    background: #FFF;
+    height: 70px;
+}
+
+.logo
+{
+    margin-right: 42px;
+}
+.section-contacts-link
+{
+    color: #666;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.personal-account
+{
+    display: flex;
+    margin-left: auto;
+    width: 155px;
+    height: 24px;
+    
+}
+
+.personal-account-link-discription
+{
+    display: inline-block;
+    margin: auto 0;
+    color: #C93;
+    margin-left: 5px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transform: translateY(2px);
+}
+.nav-list
+{
+    
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+    transform: translateY(-10px);
+
+}
+.nav-list-item:not(:last-child)
+{
+    margin-right: 14px;
+}
+.nav-list-item
+{
+    padding-left: 46px;
+}
+.nav-list-link
+{
+    color: #666;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.btns
+{
+    margin-left: auto;
+}
+.btn
+{
+    color: #C93;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-style: solid;
+    text-rendering: auto;
+    display: inline-flex;
+    text-align: start;
+    border-radius: 10px;
+    padding: 13px 20px;
+    border: 1px solid #C93;
+}
+.btnL
+{
+    margin-right: 15px;
+}
+.btnR
+{
+    margin-right: 30px;
+}
+.section-heading
+{
+    margin-bottom: 34px;
+    margin-top: 34px;
+    
+}
+
+.section-hero-heading
+{
+    margin-left: 42px;
+    color: #333;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.section-hero-list
+{
+    
+    display: flex;
+    flex-wrap: wrap; /* Очень полезное свойство - отвечает за перевод строки*/
+    justify-content: space-between;
+    height: 600px;
+    
+}
+.section-hero-list-item-mald
+{
+    margin-bottom: 20px;
+    background-image: url("/IMG/Rectangle 15.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 258px;
+    
+}
+.content-side-description
+{
+    justify-content: center;
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 80px;
+    padding-left: 45px;
+    padding-right: 108px;
+    margin-bottom: 15px;
+}
+.content-side-price
+{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 45px;
+}
+.section-hero-list-item-rich
+{
+    background-image: url("/IMG/33 1.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 540px;
+    
+}
+.content-main-description
+{
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 45px;
+    padding-right: 108px;
+    margin-bottom: 15px;
+    padding-top: 160px ;
+}
+.content-main-price
+{
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 45px;
+    margin-top: 15px;
+}
+.link
+{
+    color: #F0BF5F;
+}
+.content-main-link
+{
+    color: #F0BF5F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 45px;
+    padding-top: 45px;
+}
+.content-side-main-arrow
+{
+    transform: translateY(5px);
+}
+.content-side-link
+{
+    display: flex;
+    color: #F0BF5F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 45px;
+    
+}
+.content-side-arrow
+{
+    padding-left: 5px;
+    transform: translateY(-1px);
+}
+.section-hero-list-item-krit
+{
+    margin-bottom: 20px;
+    background-image: url("/IMG/Rectangle 14.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 258px;
+    transform: translateY(-259px);
+}
+.section-heading
+{
+    padding-left: 42px;
+    color: #333;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.section-description
+{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 32px */
+    margin-bottom: 70px;
+}
+.section-services-arrow
+{
+    transform: translateY(5px);
+}
+.section-services-list
+{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-services-item
+{
+    max-width: 573px;
+    height: 350px;
+    background: #FFF;
+    margin-bottom: 25px;
+    border-radius: 15px 15px 0px 0px;
+}
+.section-services-link
+{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 40px */
+    padding-left: 45px;
+    margin-top: 26px;
+}
+.section-services-link-padding
+{
+    margin-top: 26px;
+}
+.section-services-arrow
+{
+    transform: translateY(3px);
+}
+.section-services-description
+{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 32px */
+    padding-left: 45px;
+    width: 450px;
+}
+.section-advantages-list
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}       
+
+.section-advantages-item
+{
+    width: 276px;
+    height: 276px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    margin-bottom: 22px;
+    
+}
+.section-advantages-item-img
+{
+    padding-top: 40px;
+    padding-left: 45px;
+}
+.section-advantages-description
+{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 32px */
+    padding-left: 45px;
+    width: 230px;
+    height: 130px;
+}
+.section-accommodation-list
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-accommodation-item
+{
+    margin-bottom: 20px;
+    width: 375px;
+    border-radius: 15px;
+    background: #FFF;
+    height: 400px ;
+}
+.section-accommodation-flex
+{
+    display: flex;
+    align-items: center;
+}
+.section-accommodation-item-defult-text
+{
+    margin-left: 45px;
+}
+.stars
+{
+    margin-left: auto;
+    margin-right: 45px;
+}
+.section-accommodation-item-defult-text-from
+{
+    color: #999;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section-accommodation-item-defult-text-price
+{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-accommodation-item-name
+{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 45px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.section-accommodation-item-place
+{
+    color: #999;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 45px;
+}
+.accommodation-btn
+{
+    margin-left: 45px;
+}
+.main-item
+{
+    background-image: url(/IMG/41.png);
+    
+}
+.main-btn
+{
+    display: flex;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 40px */
+    border: 0;
+    justify-content: center;
+    transform: translateY(330px);
+    
+}
+.main-arrow
+{
+    padding-left: 5px;
+}
